@@ -1,0 +1,127 @@
+.App {
+    /* // text-align: center; */
+     padding:20px;
+     background-color:#fff
+   }
+   
+   .App-logo {
+     height: 40vmin;
+     pointer-events: none;
+   }
+   
+   .SheetContiner{
+     border:1px solid #000;
+     margin-top: 20px;
+   }
+   @media (prefers-reduced-motion: no-preference) {
+     .App-logo {
+       animation: App-logo-spin infinite 20s linear;
+     }
+   }
+   
+   .App-header {
+     background-color: #282c34;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     font-size: calc(10px + 2vmin);
+     color: white;
+   }
+   
+   .App-link {
+     color: #61dafb;
+   }
+   input[type=text], input[type=password] {
+     width: 75%;
+     padding: 15px;
+   
+     display: inline-block;
+     border: none;
+     background: #f1f1f1;
+   }
+   
+   .container {
+     padding: 16px;
+     background-color: white;
+   }
+   .containersmall{
+     padding:10;
+     align-items: center;
+     justify-content:  center;
+     margin: 0px;
+   }
+   .questionMainContainer{
+     /* border-bottom: 1px solid #004; */
+     justify-content:center;
+     background-color:#efefef;
+     padding-top: 10px;
+     padding-bottom: 20px;
+     padding-left: 10px;
+     margin-top: 30px;
+     margin-bottom: 20px;
+   }
+   .heading{
+     font-size: large;
+     color: black;
+     font-family: sans-serif;
+   }
+   .questionContainer {
+     align-items: flex-start;
+     justify-content:  left;
+     margin: 0px;
+   }
+   .answerContainer{
+     padding-left: 10px;
+   }
+   .btnContainer {
+     align-items: center;
+     justify-content:  space-evenly;
+     margin-bottom: 15px;
+   }
+   .sheetItemContainer{
+     align-items: center;
+     justify-content:  space-evenly;
+     margin-bottom: 15px;
+     padding: 10px;
+   }
+   .signContainer {
+    /*  justify-content:  flex-end; */
+    text-align: left;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 1px solid */
+   }
+   .signText {
+     text-align: left;
+   }
+   .sigCanvas {
+     background-color:rgb(255, 255, 255);
+     border: 1px solid ;
+     border-radius: 3px;
+     margin-left: 5px;
+   }
+   .imagStyle{
+     height: 50px;
+     width: 50px;
+   }
+   .requiredSign{
+     color: red;
+   }
+   .successSign{
+     color: #026f01;
+   }
+   .addQuestionContainer{
+     margin-top: 0px;
+   }
+   
+   @keyframes App-logo-spin {
+     from {
+       transform: rotate(0deg);
+     }
+     to {
+       transform: rotate(360deg);
+     }
+   }
+   
